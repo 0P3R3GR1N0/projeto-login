@@ -29,5 +29,20 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
 
+section#login > div#imagem{
+    display: block;
+    background-color: blueviolet;
+    background: url(../imagens/pexels-furkan-gunes-45417726-28425084.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 250px;
+
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
